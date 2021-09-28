@@ -1181,11 +1181,12 @@ h5 {
       &:after {
         display: block;
         content: '';
-        min-height: 75px;
+        min-height: 300px;
         background-color: $dark-blue;
-        background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/footer_tagline_png_1632438268170/footer_tagline_f6c6d480-3578-443a-b60d-189060c69b18.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=sCN9SYoXJ14E9Ce7joRnaNcSkWE%3D');
+        background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/footer_tagline_1632863386719/footer_tagline_012b9b02-7f7b-4bb6-bfa0-a321442245f2.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=sN5vhW%2BV1sIEkO2McaNZFPbwy7E%3D');
         background-size: contain;
         background-repeat: no-repeat;
+        background-position: center;
       }
 
       &::before {
