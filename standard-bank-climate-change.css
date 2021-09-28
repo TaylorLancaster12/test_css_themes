@@ -1659,6 +1659,12 @@ h5 {
   }
 }
 
+@media (max-width: 550px) {
+  #page-top .login-container {
+    background-position: top left;
+  }
+}
+
 #page-top .login-container > .row {
   display: flex;
   align-items: center;
@@ -1803,7 +1809,11 @@ h5 {
   filter: contrast(0) brightness(2);
 }
 
-#page-top .login-container > .row > div > p:nth-child(n+10) {
+#page-top .login-container > .row > div > p:nth-of-type(8) {
+  margin-top: 2rem;
+}
+
+#page-top .login-container > .row > div > p:nth-of-type(n+8) {
   font-size: .8rem;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   max-width: 100%;
@@ -1875,7 +1885,7 @@ h5 {
 
 #page-top .login-container > .row > div form .form-group .form-control {
   height: 50px;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   border-radius: 0;
 }
 
@@ -1896,8 +1906,7 @@ h5 {
   color: #10163d;
   font-family: "benton-sans", Arial, sans-serif;
   font-weight: 400;
-  text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   cursor: text;
 }
 
