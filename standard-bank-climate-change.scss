@@ -1298,6 +1298,7 @@ h5 {
           margin: 0 auto;
           color: $white;
           grid-column: auto / span 2;
+          position: relative;
 
           @media screen and (max-width: 767px) {
             width: 95%;
@@ -1321,6 +1322,20 @@ h5 {
 
           @media all and (min-width: 1800px) {
             width: 94.625rem;
+          }
+
+          &:after {
+            display: none;
+            content: '';
+            width: 50px;
+            height: 50px;
+            background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_source/Screen_Shot_2021_09_17_at_12_40_16_PM_png_1632185003823/Screen_Shot_2021_09_17_at_12_40_16_PM_c0d97dbb-9441-47d9-a0af-9aec0362c523.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&amp;Expires=2145916800&amp;Signature=DvxaxuxpIuc4jP4yL9qC84lpg4w%3D');
+          }
+
+          &:hover {
+            &:after {
+              display: block;
+            }
           }
 
           &:first-of-type {
@@ -1486,7 +1501,7 @@ h5 {
 
         > p:first-of-type {
           color: $blue !important;
-          font-size: 1.25rem;
+          font-size: 1.5rem;
           font-weight: 400;
           pointer-events: none;
           text-align: left;
@@ -1571,7 +1586,7 @@ h5 {
     }
 
     @media (max-width: 550px) {
-      background-position: top left;
+      background-position: 30%;
     }
 
     > .row {
@@ -1602,7 +1617,7 @@ h5 {
           grid-template-columns: 60% 40%;
 
           form {
-            padding-left: 2rem;
+            padding-left: .25rem;
           }
         }
 
