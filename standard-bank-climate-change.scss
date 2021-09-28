@@ -1263,7 +1263,7 @@ h5 {
           a {
             &:after {
               z-index: 2;
-              display: none;
+              display: block;
               content: '';
               width: 50px;
               height: 50px;

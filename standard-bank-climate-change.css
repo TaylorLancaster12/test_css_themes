@@ -1322,7 +1322,7 @@ h5 {
 
 #page-top #url-auth-suffix ~ footer ul:first-of-type li a:after {
   z-index: 2;
-  display: none;
+  display: block;
   content: '';
   width: 50px;
   height: 50px;
