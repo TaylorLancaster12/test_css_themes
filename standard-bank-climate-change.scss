@@ -1681,20 +1681,22 @@ h5 {
           display: none;
         }
 
-        > p:nth-of-type(9) {
+        > p:nth-of-type(7) {
           &:after {
             content: '';
-            width: 10px;
-            height: 20px;
-            background: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/play_button_1632186306591/play_button_5d08bb34-9b43-48b1-8575-cabd02b24679.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=v83gXFDP%2BtkRtiHROY6c%2Fmu%2Bh84%3D');
+            width: 150px;
+            height: 50px;
+            background: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/SOAS_White_1632180432778/SOAS_White_27e10356-7c03-4501-87b0-e4301150ab05.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=lAD5I9%2BiRILAOc8eBjL%2BV7mGmw0%3D');
             background-size: contain;
+            background-repeat: no-repeat;
             display: block;
-            margin-left: .75rem;
+            margin-top: 2rem;
+            filter: contrast(0) brightness(2);
           }
         }
 
         > p:nth-child(n+10) {
-          font-size: .75rem;
+          font-size: .8rem;
           text-shadow: 1px 1px 1px rgba(0,0,0,.5);
           max-width: 100%;
           grid-column: 1 / span 2;
