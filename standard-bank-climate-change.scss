@@ -1951,9 +1951,10 @@ footer {
           text-decoration: none !important;
           transition: all .25s ease-in-out;
           border: 1px solid transparent;
-          display: grid;
-          grid-template-columns: 5% 95%;
-          grid-template-rows: repeat(2, 1fr);
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          position: relative;
 
           @media(max-width: 768px) {
             grid-template-columns: 10% 80%;
@@ -1983,11 +1984,11 @@ footer {
             display: block;
             margin: 0 auto;
             height: 30px;
-            background-repeat: no-repeat;
             width: 25px;
-            grid-column: 1 / span 1;
-            grid-row: 1 / span 2;
-            align-self: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 30%;
+            left: 1%;
           }
 
           &:hover {
@@ -1995,11 +1996,19 @@ footer {
             border: 1px solid rgba(115,115,115,.4);
           }
 
+          strong, em {
+            width: 95%;
+            margin-left: auto;
+
+            @media (max-width: 768px) {
+              width: 90%;
+            }
+          }
+
           strong {
             font-weight: 600;
             line-height: 1.1;
             color: #fff;
-            grid-column: auto / span 1;
             margin-bottom: .25rem;
           }
 
@@ -2007,8 +2016,6 @@ footer {
             color: #fff;
             font-style: normal;
             line-height: 1.1;
-            width: 100%;
-            grid-column: auto / span 1;
           }
 
           u {
