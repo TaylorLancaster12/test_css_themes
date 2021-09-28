@@ -26,6 +26,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "benton-sans";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/BentonSans_Black_otf_1632853699132/BentonSans_Black_4211340a-83be-4fac-ba96-31e7ac6919ed.otf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=mBrhpKkeTQKxzJMisEWSvuB9zVs%3D");
+  font-weight: 700;
+  font-style: normal;
+}
+
 html {
   font-family: "benton-sans", Arial, sans-serif;
   font-size: 16px;
@@ -1005,7 +1012,7 @@ h5 {
 #page-top #url-auth-suffix ~ header .header-container > .row .col-xs-12 .showcase-description p:nth-of-type(4),
 #page-top #url-auth-suffix ~ header .header-container > .row .col-xs-12 .showcase-description p:nth-of-type(5) {
   line-height: .9;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 6rem;
 }
 
@@ -1393,7 +1400,7 @@ h5 {
 #page-top #url-auth-suffix ~ footer ul:nth-of-type(2) li:first-of-type span {
   color: #fff !important;
   line-height: .9;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 5rem;
   color: #0d49f0;
   text-align: left;
@@ -1408,7 +1415,7 @@ h5 {
 #page-top #url-auth-suffix ~ footer ul:nth-of-type(2) li:nth-of-type(2) span {
   color: #a4d862 !important;
   line-height: .9;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 5rem;
   color: #0d49f0;
   text-align: left;
@@ -1587,7 +1594,7 @@ h5 {
 #page-top #url-auth-suffix ~ footer .footer-container > p:nth-of-type(4),
 #page-top #url-auth-suffix ~ footer .footer-container > p:nth-of-type(5) {
   line-height: .9;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 5rem;
   color: #0d49f0;
   text-align: left;
@@ -1825,7 +1832,7 @@ h5 {
 #page-top .login-container > .row > div > p:nth-of-type(5),
 #page-top .login-container > .row > div > p:nth-of-type(6) {
   line-height: .85;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 5rem;
   text-align: left;
 }
@@ -2141,7 +2148,7 @@ footer .container .footer-container p a u {
 #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:first-of-type .post .thumb-meta-wrapper h3 a, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:nth-of-type(10) .post .thumb-meta-wrapper h3 a, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type .post .thumb-meta-wrapper h3 a, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:nth-of-type(10) .post .thumb-meta-wrapper h3 a {
   color: #0d49f0 !important;
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 700;
   pointer-events: none;
   text-align: center;
 }

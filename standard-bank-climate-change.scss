@@ -26,6 +26,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "benton-sans";
+  src: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/BentonSans_Black_otf_1632853699132/BentonSans_Black_4211340a-83be-4fac-ba96-31e7ac6919ed.otf?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=mBrhpKkeTQKxzJMisEWSvuB9zVs%3D");
+  font-weight: 700;
+  font-style: normal;
+}
+
 @mixin grid($count, $space, $gap) {
   display: grid;
   grid-template-columns: repeat($count, minmax(0, $space));
@@ -1011,7 +1018,7 @@ h5 {
               p:nth-of-type(4),
               p:nth-of-type(5) {
                 line-height: .9;
-                font-weight: 600;
+                font-weight: 700;
                 font-size: 6rem;
 
                 @media (max-width: 768px) {
@@ -1320,7 +1327,7 @@ h5 {
             span {
               color: $white !important;
               line-height: .9;
-              font-weight: 600;
+              font-weight: 700;
               font-size: 5rem;
               color: $blue;
               text-align: left;
@@ -1335,7 +1342,7 @@ h5 {
             span {
               color: $green !important;
               line-height: .9;
-              font-weight: 600;
+              font-weight: 700;
               font-size: 5rem;
               color: $blue;
               text-align: left;
@@ -1492,7 +1499,7 @@ h5 {
         > p:nth-of-type(4),
         > p:nth-of-type(5) {
           line-height: .9;
-          font-weight: 600;
+          font-weight: 700;
           font-size: 5rem;
           color: $blue;
           text-align: left;
@@ -1715,7 +1722,7 @@ h5 {
         > p:nth-of-type(5),
         > p:nth-of-type(6) {
           line-height: .85;
-          font-weight: 600;
+          font-weight: 700;
           font-size: 5rem;
           text-align: left;
 
@@ -2022,7 +2029,7 @@ footer {
           a {
             color: $blue !important;
             font-size: 1.25rem;
-            font-weight: 600;
+            font-weight: 700;
             pointer-events: none;
             text-align: center;
           }
