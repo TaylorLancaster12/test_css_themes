@@ -2085,6 +2085,22 @@ footer .container .footer-container p a {
   }
 }
 
+footer .container .footer-container p a:nth-of-type(2), footer .container .footer-container p a:nth-of-type(6) {
+  background-color: #0d49f0;
+}
+
+footer .container .footer-container p a:nth-of-type(3) {
+  background-color: #a4d862;
+}
+
+footer .container .footer-container p a:nth-of-type(3) strong, footer .container .footer-container p a:nth-of-type(3) em {
+  color: #0d49f0;
+}
+
+footer .container .footer-container p a:nth-of-type(4) {
+  background-color: #041040;
+}
+
 footer .container .footer-container p a:before {
   content: '';
   background: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Vector_Smart_Object_png_1632417068660/Vector_Smart_Object_c8a01b73-1a77-474a-8475-966ec48d4941.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=u0J5Y2GhAmzlVPGP3QZWbYXj%2Bxw%3D");
