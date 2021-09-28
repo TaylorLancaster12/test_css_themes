@@ -1895,135 +1895,137 @@ h5 {
   }
 }
 
-footer {
-  margin-top: auto;
-  display: block;
+#page-top {
+  footer {
+    margin-top: auto;
+    display: none;
 
-  .container {
-    padding: 0;
-
-    @media screen and (max-width: 767px) {
-      width: 95%;
-    }
-
-    @media screen and (min-width: 768px) {
-      width: 45.875rem;
-    }
-
-    @media screen and (min-width: 992px) {
-      width: 55.875rem;
-    }
-
-    @media all and (min-width: 1200px) {
-      width: 69rem;
-    }
-
-    @media all and (min-width: 1500px) {
-      width: 75.875rem;
-    }
-
-    @media all and (min-width: 1800px) {
-      width: 94.625rem;
-    }
-
-    .footer-container {
+    .container {
       padding: 0;
 
-      p {
-        margin: 0;
-        text-align: center;
-        color: #fff;
-        font-family: $primary-font;
-        font-weight: 400;
-        margin-bottom: 1rem;
-
-        br ~ br {
-          display: none;
-        }
-
-        a {
-          padding: 1rem 0 .75rem;
-          background-color: $light-blue;
-          width: 100%;
-          text-align: left;
-          text-transform: uppercase;
-          font-size: 1rem;
-          text-decoration: none !important;
-          transition: all .25s ease-in-out;
-          border: 1px solid transparent;
-          display: flex;
-          flex-wrap: wrap;
-          align-items: center;
-          position: relative;
-
-          @media(max-width: 768px) {
-            grid-template-columns: 10% 80%;
-          }
-
-          &:before {
-            content: '';
-            background: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Vector_Smart_Object_png_1632417068660/Vector_Smart_Object_c8a01b73-1a77-474a-8475-966ec48d4941.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=u0J5Y2GhAmzlVPGP3QZWbYXj%2Bxw%3D');
-            background-size: contain;
-            display: block;
-            margin: 0 auto;
-            height: 30px;
-            width: 25px;
-            background-repeat: no-repeat;
-            position: absolute;
-            top: 30%;
-            left: 1%;
-          }
-
-          &:hover {
-            background-color: #2b8ad4;
-            border: 1px solid rgba(115,115,115,.4);
-          }
-
-          strong, em {
-            width: 95%;
-            margin-left: auto;
-
-            @media (max-width: 768px) {
-              width: 90%;
-            }
-          }
-
-          strong {
-            font-weight: 600;
-            line-height: 1.1;
-            color: #fff;
-            margin-bottom: .25rem;
-          }
-
-          em {
-            color: #fff;
-            font-style: normal;
-            line-height: 1.1;
-          }
-
-          u {
-            text-decoration: none;
-          }
-        }
+      @media screen and (max-width: 767px) {
+        width: 95%;
       }
 
-      #resources {
+      @media screen and (min-width: 768px) {
+        width: 45.875rem;
+      }
+
+      @media screen and (min-width: 992px) {
+        width: 55.875rem;
+      }
+
+      @media all and (min-width: 1200px) {
+        width: 69rem;
+      }
+
+      @media all and (min-width: 1500px) {
+        width: 75.875rem;
+      }
+
+      @media all and (min-width: 1800px) {
+        width: 94.625rem;
+      }
+
+      .footer-container {
+        padding: 0;
+
         p {
-          &:nth-of-type(2) a,
-          &:nth-of-type(6) a {
-            background-color: $blue;
+          margin: 0;
+          text-align: center;
+          color: #fff;
+          font-family: $primary-font;
+          font-weight: 400;
+          margin-bottom: 1rem;
+
+          br ~ br {
+            display: none;
           }
 
-          &:nth-of-type(3) a {
-            background-color: $green;
+          a {
+            padding: 1rem 0 .75rem;
+            background-color: $light-blue;
+            width: 100%;
+            text-align: left;
+            text-transform: uppercase;
+            font-size: 1rem;
+            text-decoration: none !important;
+            transition: all .25s ease-in-out;
+            border: 1px solid transparent;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            position: relative;
+
+            @media(max-width: 768px) {
+              grid-template-columns: 10% 80%;
+            }
+
+            &:before {
+              content: '';
+              background: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Vector_Smart_Object_png_1632417068660/Vector_Smart_Object_c8a01b73-1a77-474a-8475-966ec48d4941.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=u0J5Y2GhAmzlVPGP3QZWbYXj%2Bxw%3D');
+              background-size: contain;
+              display: block;
+              margin: 0 auto;
+              height: 30px;
+              width: 25px;
+              background-repeat: no-repeat;
+              position: absolute;
+              top: 30%;
+              left: 1%;
+            }
+
+            &:hover {
+              background-color: #2b8ad4;
+              border: 1px solid rgba(115,115,115,.4);
+            }
 
             strong, em {
-              color: $blue;
+              width: 95%;
+              margin-left: auto;
+
+              @media (max-width: 768px) {
+                width: 90%;
+              }
+            }
+
+            strong {
+              font-weight: 600;
+              line-height: 1.1;
+              color: #fff;
+              margin-bottom: .25rem;
+            }
+
+            em {
+              color: #fff;
+              font-style: normal;
+              line-height: 1.1;
+            }
+
+            u {
+              text-decoration: none;
             }
           }
+        }
 
-          &:nth-of-type(4) a {
-            background-color: #041040;
+        #resources {
+          p {
+            &:nth-of-type(2) a,
+            &:nth-of-type(6) a {
+              background-color: $blue;
+            }
+
+            &:nth-of-type(3) a {
+              background-color: $green;
+
+              strong, em {
+                color: $blue;
+              }
+            }
+
+            &:nth-of-type(4) a {
+              background-color: #041040;
+            }
           }
         }
       }
@@ -2121,6 +2123,24 @@ footer .container .footer-container {
         text-decoration: none;
       }
     }
+  }
+}
+
+#page-top #url-auth-suffix ~ footer {
+  display: block !important;
+}
+
+/* sub pages only */
+#page-top header:nth-child(3) {
+  .showcase-title {
+    color: $blue !important;
+    font-weight: 600;
+  }
+}
+
+#page-top #showcase_category:nth-child(4) {
+  .column-view-item {
+    border: 1px solid $blue;
   }
 }
 
