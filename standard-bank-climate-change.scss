@@ -1681,14 +1681,24 @@ h5 {
           display: none;
         }
 
+        > p:nth-of-type(9) {
+          &:after {
+            content: '';
+            width: 10px;
+            height: 20px;
+            background: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/play_button_1632186306591/play_button_5d08bb34-9b43-48b1-8575-cabd02b24679.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=v83gXFDP%2BtkRtiHROY6c%2Fmu%2Bh84%3D');
+            background-size: contain;
+            display: block;
+            margin-left: .75rem;
+          }
+        }
+
         > p:nth-child(n+10) {
           font-size: .75rem;
           text-shadow: 1px 1px 1px rgba(0,0,0,.5);
-          max-width: 85%;
-
-          @media (max-width: 768px) {
-            max-width: 100%;
-          }
+          max-width: 100%;
+          grid-column: 1 / span 2;
+          font-weight: 500;
         }
 
         > p:nth-of-type(4),
