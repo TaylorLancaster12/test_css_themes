@@ -1539,10 +1539,15 @@ h5 {
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
-      position: relative;
-      bottom: 5rem;
+      position: fixed;
+      bottom: 0;
+      left: 0;
       margin-left: -15px;
       margin-right: -15px;
+
+      @media (max-width: 768px) {
+        background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/footer_tagline_1632942539757/footer_tagline_cd1ba077-af83-4841-b3f1-10db21a9eb66.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=acNeJRPH6k5xk841z9kBio%2BHgpw%3D');
+      }
     }
 
     @media (max-width: 768px) {
@@ -2013,35 +2018,35 @@ h5 {
               }
 
               &:first-child::before {
-                background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_581_png_1632180432340/Layer_581_20abc519-16f5-4d50-95fd-e25f2348aaf6.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=adgUOGMOfWiSQu06SpcmRw%2FpYlc%3D');
+                background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/Icons_1632942572418/Icons_58017a5c-1373-436e-9ad7-cc7480e395ab.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=6TJlJAbRx4r8rVRQxrP7uiTWpHU%3D');
               }
 
               &:nth-child(2)::before {
-                background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_607_png_1632180432282/Layer_607_98500f4e-a513-4ff9-924c-1ed3b3a9bea9.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=q%2FQZ0APeuSSzZgHin9TuLJXmXyo%3D');
+                background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/Icons_1632942572503/Icons_1cff9ae9-2fa1-475c-be97-dc27a568abc4.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=3yd8K1iXO7VKITQujH8ZGjthKqs%3D');
               }
 
               &:nth-child(3)::before {
-                background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_608_png_1632180432642/Layer_608_3e3cbb30-4b7e-4ccf-a651-1455088d7b92.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=OBwLZOplmzlSXO6zN%2F7YJ5JgBvU%3D');
+                background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/Icons_1632942572418/Icons_daab3d1f-7832-4fe4-a7aa-8003ee670319.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=lQBvU0xNJLde7a4wWTlM2l9LfJw%3D');
               }
 
               &:nth-child(4)::before {
-                background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_609_png_1632180432654/Layer_609_afdd1165-c0fb-4fa6-9edc-8a8f77a2c48d.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=cSdWFwQl9V4NBoV1Iv3bz1QDH40%3D');
+                background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/Icons_1632942572145/Icons_61e14ffb-8c88-46e7-900c-3b5654eb25cb.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=mi1BxDnkX3yoqlmxQ9MaMZL2iUI%3D');
               }
 
               &:nth-child(5)::before {
-                background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_649_png_1632180432682/Layer_649_bf681e5b-23de-4447-957c-f732f42a9c02.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=i7otNc8pFilAuB8i19pSDq5ArZs%3D');
+                background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/Icons_1632942572439/Icons_b9715148-f13e-4caf-8fca-f68bea5a44ef.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=09qLNR7GWqnY7wELTiG4%2FtjIVNQ%3D');
               }
 
               &:nth-child(6)::before {
-                background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_582_png_1632180432280/Layer_582_c1c50013-3c90-4ba2-b6c0-745bce3d32e2.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=F%2BkZGcNgQ8BYukVHFooMvv3ra5Q%3D');
+                background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/Icons_1632942572144/Icons_b8013ea7-36dd-406b-b0f1-a6890ba23bf9.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=loVki6v88LFw%2B%2BKVjPisJTwyE1A%3D');
               }
 
               &:nth-child(7)::before {
-                background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Screenshot_2021_09_09_at_16_24_png_1632180432714/Screenshot_2021_09_09_at_16_24_af00b351-2efa-40ee-9d43-d3e5576a3cd6.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=MftLciySqqlcVfx65iN9y%2BCZFU4%3D');
+                background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/Icons_1632942572092/Icons_4b7775df-1604-4753-8b25-6b35f312069c.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=kPEWN1CZ2%2BXyqUHleh8l9b7E02M%3D');
               }
 
               &:nth-child(8)::before {
-                background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_606_png_1632180432282/Layer_606_c76fcc81-88a6-465e-8f8a-e10bc82a695b.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=gsKClF5qFQjZ6nSnyqIppFHuB2g%3D');
+                background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/Icons_1632942572435/Icons_66fa481c-84ec-4e26-91b1-0344dc8552b0.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=xTrnglinpauTySdgq03%2FgT2kFR0%3D');
               }
             }
           }
