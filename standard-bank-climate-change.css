@@ -66,7 +66,7 @@ h5 {
   -webkit-box-direction: normal;
   -ms-flex-flow: column;
   flex-flow: column;
-  padding-top: 6rem;
+  padding-top: 5rem;
   padding-bottom: 0;
   overflow-x: hidden;
 }
@@ -87,7 +87,7 @@ h5 {
 
 #page-top #main_navigation .navbar-brand {
   position: static;
-  height: 6rem;
+  height: 5rem;
   padding: 1rem;
 }
 
@@ -96,14 +96,14 @@ h5 {
 }
 
 #page-top #main_navigation_collapse {
-  margin-top: 2.1875rem;
+  margin-top: 1.75rem;
 }
 
 @media screen and (min-width: 768px) {
   #page-top #main_navigation_collapse {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: flex !important;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
     -ms-flex-flow: row-reverse;
@@ -1198,17 +1198,6 @@ h5 {
   position: relative;
 }
 
-#page-top #url-auth-suffix ~ footer:after {
-  display: block;
-  content: '';
-  min-height: 175px;
-  background-color: #10163d;
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/footer_tagline_1632863386719/footer_tagline_012b9b02-7f7b-4bb6-bfa0-a321442245f2.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=sN5vhW%2BV1sIEkO2McaNZFPbwy7E%3D");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 #page-top #url-auth-suffix ~ footer::before {
   content: '';
   display: block;
@@ -1893,10 +1882,10 @@ h5 {
   grid-row: 1 / span 8;
   order: 2;
   width: 100%;
-  padding-top: 4rem;
+  padding-top: 5rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #page-top .login-container > .row > div form {
     padding-right: 5%;
   }
@@ -1913,9 +1902,6 @@ h5 {
   position: relative;
   font-family: "benton-sans", Arial, sans-serif;
   order: 2;
-}
-
-#page-top .login-container > .row > div form .form-group:nth-child(6) {
   color: #fff;
 }
 
