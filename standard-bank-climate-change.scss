@@ -2200,6 +2200,14 @@ footer .container .footer-container {
   }
 }
 
+
+@media (min-width: 768px) {
+  .navbar-right~.navbar-right {
+      display: flex;
+      align-items: center;
+  }
+}
+
 /* delete this the day before the conference */
 #page-top #url-auth-suffix ~ footer::before {
   display: none;

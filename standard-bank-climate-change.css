@@ -2300,6 +2300,13 @@ h5 {
   border: 1px solid #0d49f0;
 }
 
+@media (min-width: 768px) {
+  .navbar-right ~ .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+}
+
 /* delete this the day before the conference */
 #page-top #url-auth-suffix ~ footer::before {
   display: none;
