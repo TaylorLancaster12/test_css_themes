@@ -1542,8 +1542,7 @@ h5 {
       position: fixed;
       bottom: 0;
       left: 0;
-      margin-left: -15px;
-      margin-right: -15px;
+      width: 100%;
 
       @media (max-width: 768px) {
         background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/footer_tagline_1632942539757/footer_tagline_cd1ba077-af83-4841-b3f1-10db21a9eb66.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=acNeJRPH6k5xk841z9kBio%2BHgpw%3D');
