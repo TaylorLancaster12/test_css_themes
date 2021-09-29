@@ -1589,6 +1589,17 @@ h5 {
     max-width: unset;
     padding-bottom: 1rem;
 
+    &:after {
+      display: block;
+      content: '';
+      min-height: 175px;
+      background-color: $dark-blue;
+      background-image: url('https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/footer_tagline_1632863386719/footer_tagline_012b9b02-7f7b-4bb6-bfa0-a321442245f2.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=sN5vhW%2BV1sIEkO2McaNZFPbwy7E%3D');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
     @media (max-width: 768px) {
       overflow: scroll;
       padding-top: 6rem;
@@ -1618,7 +1629,7 @@ h5 {
         width: 100%;
         scrollbar-color: $light-grey transparent;
         display: grid;
-        grid-template-columns: 60% 30%;
+        grid-template-columns: 65% 35%;
         position: relative;
         padding: 4rem 6rem;
 
@@ -1681,11 +1692,8 @@ h5 {
         }
 
         > .row {
-          position: absolute;
-          padding: 1rem 0;
-          margin-bottom: 1.5rem;
-          top: 0;
-          right: 1rem;
+          margin: 0;
+          text-align: left;
           grid-column: unset;
 
           @media (max-width: 768px) {
@@ -1693,15 +1701,10 @@ h5 {
           }
 
           img {
-            max-width: 60% !important;
-            margin: 0 auto;
-
-            @media (max-width: 1150px) {
-              max-width: 30% !important;
-            }
+            max-height: 125px;
 
             @media (max-width: 992px) {
-              display: none;
+              max-height: 50px;
             }
           }
         }
@@ -1780,7 +1783,11 @@ h5 {
           grid-row: 1 / span 8;
           order: 2;
           width: 100%;
-          padding-top: 2rem;
+          padding-top: 4rem;
+
+          @media (min-width: 768px) {
+            padding-right: 5%;
+          }
 
           @media (max-width: 992px) {
             grid-column: auto / span 1;
