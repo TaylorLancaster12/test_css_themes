@@ -1691,6 +1691,11 @@ h5 {
           font-weight: 500;
         }
 
+        > p:last-of-type {
+          display: block !important;
+          padding-bottom: 5rem;
+        }
+
         > p:nth-of-type(4),
         > p:nth-of-type(5),
         > p:nth-of-type(6) {
