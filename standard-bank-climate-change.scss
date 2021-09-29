@@ -1581,7 +1581,7 @@ h5 {
 #page-top {
   .login-container {
     margin: 0;
-    height: calc(100vh - 6rem); // height of page-top padding
+    height: calc(100vh - 5rem); // height of page-top padding
     width: 100% !important;
     background: url('https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/MAIN_GLOBE_png_1632853480788/MAIN_GLOBE_c6505927-11fa-459e-8db5-44169c738dd8.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=%2BJy5Qp%2FeNLJG1lGQHtDfttxd91A%3D');
     background-size: cover;
@@ -1705,10 +1705,10 @@ h5 {
           }
 
           img {
-            max-height: 125px;
+            max-height: 125px !important;
 
             @media (max-width: 992px) {
-              max-height: 50px;
+              max-height: 50px !important;
             }
           }
         }
