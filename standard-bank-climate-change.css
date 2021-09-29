@@ -1350,7 +1350,7 @@ h5 {
 }
 
 #page-top #url-auth-suffix ~ footer ul:first-of-type li:nth-of-type(2) a {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/2nd_tile_1632407502022/2nd_tile_ffecc364-e233-4617-85c9-f6332b7aeea0.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=n0UaTpQT6WynCBFVfKu1xmpB%2FXI%3D");
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/27SeptTILE_2_jpg_1632941556554/27SeptTILE_2_346a0765-4ba3-474b-aaea-5f35726d9c5f.jpg?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=Z8GPTJo5Y6r%2F2XsI4KhhSl0BvzU%3D");
 }
 
 #page-top #url-auth-suffix ~ footer ul:first-of-type li:nth-of-type(3) a {
@@ -1610,9 +1610,9 @@ h5 {
 #page-top .login-container:after {
   display: block;
   content: '';
-  min-height: 100px;
+  min-height: 75px;
   background-color: #10163d;
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/footer_tagline_1632863386719/footer_tagline_012b9b02-7f7b-4bb6-bfa0-a321442245f2.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=sN5vhW%2BV1sIEkO2McaNZFPbwy7E%3D");
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/footer_tagline_png_1632437842417/footer_tagline_2fc1c5f5-d93e-47ad-852d-feeb377667b3.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=Bx4ddJllOkcAdQzS10lyephdPIY%3D");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
