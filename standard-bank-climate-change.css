@@ -1501,89 +1501,6 @@ h5 {
   font-weight: 600;
 }
 
-#page-top #url-auth-suffix ~ footer ul:last-of-type {
-  display: grid;
-  grid-template-columns: repeat(8, minmax(0, 1fr));
-  gap: 2rem;
-  margin-bottom: 4rem;
-  padding: 0;
-}
-
-@media (max-width: 992px) {
-  #page-top #url-auth-suffix ~ footer ul:last-of-type {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 2rem;
-  }
-}
-
-@media (max-width: 768px) {
-  #page-top #url-auth-suffix ~ footer ul:last-of-type {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 2rem;
-  }
-}
-
-@media (max-width: 550px) {
-  #page-top #url-auth-suffix ~ footer ul:last-of-type {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 2rem;
-  }
-}
-
-#page-top #url-auth-suffix ~ footer ul:last-of-type li {
-  color: #0d49f0;
-  text-align: center;
-  list-style-type: none;
-  text-transform: uppercase;
-}
-
-#page-top #url-auth-suffix ~ footer ul:last-of-type li:before {
-  content: '';
-  display: block;
-  height: 100px;
-  width: 100px;
-  margin: 0 auto;
-  margin-bottom: 1.75rem;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-#page-top #url-auth-suffix ~ footer ul:last-of-type li:first-child::before {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_581_png_1632180432340/Layer_581_20abc519-16f5-4d50-95fd-e25f2348aaf6.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=adgUOGMOfWiSQu06SpcmRw%2FpYlc%3D");
-}
-
-#page-top #url-auth-suffix ~ footer ul:last-of-type li:nth-child(2)::before {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_607_png_1632180432282/Layer_607_98500f4e-a513-4ff9-924c-1ed3b3a9bea9.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=q%2FQZ0APeuSSzZgHin9TuLJXmXyo%3D");
-}
-
-#page-top #url-auth-suffix ~ footer ul:last-of-type li:nth-child(3)::before {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_608_png_1632180432642/Layer_608_3e3cbb30-4b7e-4ccf-a651-1455088d7b92.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=OBwLZOplmzlSXO6zN%2F7YJ5JgBvU%3D");
-}
-
-#page-top #url-auth-suffix ~ footer ul:last-of-type li:nth-child(4)::before {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_609_png_1632180432654/Layer_609_afdd1165-c0fb-4fa6-9edc-8a8f77a2c48d.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=cSdWFwQl9V4NBoV1Iv3bz1QDH40%3D");
-}
-
-#page-top #url-auth-suffix ~ footer ul:last-of-type li:nth-child(5)::before {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_649_png_1632180432682/Layer_649_bf681e5b-23de-4447-957c-f732f42a9c02.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=i7otNc8pFilAuB8i19pSDq5ArZs%3D");
-}
-
-#page-top #url-auth-suffix ~ footer ul:last-of-type li:nth-child(6)::before {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_582_png_1632180432280/Layer_582_c1c50013-3c90-4ba2-b6c0-745bce3d32e2.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=F%2BkZGcNgQ8BYukVHFooMvv3ra5Q%3D");
-}
-
-#page-top #url-auth-suffix ~ footer ul:last-of-type li:nth-child(7)::before {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Screenshot_2021_09_09_at_16_24_png_1632180432714/Screenshot_2021_09_09_at_16_24_af00b351-2efa-40ee-9d43-d3e5576a3cd6.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=MftLciySqqlcVfx65iN9y%2BCZFU4%3D");
-}
-
-#page-top #url-auth-suffix ~ footer ul:last-of-type li:nth-child(8)::before {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_606_png_1632180432282/Layer_606_c76fcc81-88a6-465e-8f8a-e10bc82a695b.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=gsKClF5qFQjZ6nSnyqIppFHuB2g%3D");
-}
-
 #page-top #url-auth-suffix ~ footer .footer-container {
   position: relative;
   z-index: 1;
@@ -2122,20 +2039,129 @@ h5 {
   text-decoration: none;
 }
 
-#page-top footer .container .footer-container #resources p:nth-of-type(2) a,
-#page-top footer .container .footer-container #resources p:nth-of-type(6) a {
+#page-top footer .container .footer-container #inner-footer > p:nth-of-type(1),
+#page-top footer .container .footer-container #inner-footer > p:nth-of-type(2),
+#page-top footer .container .footer-container #inner-footer > p:nth-of-type(3),
+#page-top footer .container .footer-container #inner-footer > p:nth-of-type(4) {
+  line-height: .9;
+  font-weight: 700;
+  font-size: 5rem;
+  color: #0d49f0;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  #page-top footer .container .footer-container #inner-footer > p:nth-of-type(1),
+  #page-top footer .container .footer-container #inner-footer > p:nth-of-type(2),
+  #page-top footer .container .footer-container #inner-footer > p:nth-of-type(3),
+  #page-top footer .container .footer-container #inner-footer > p:nth-of-type(4) {
+    font-size: 3.5rem;
+  }
+}
+
+#page-top footer .container .footer-container #inner-footer > p:nth-of-type(2),
+#page-top footer .container .footer-container #inner-footer > p:nth-of-type(4) {
+  color: #a4d862;
+  margin-bottom: 4rem;
+}
+
+#page-top footer .container .footer-container #inner-footer ul {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+  padding: 0;
+}
+
+@media (max-width: 992px) {
+  #page-top footer .container .footer-container #inner-footer ul {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #page-top footer .container .footer-container #inner-footer ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  #page-top footer .container .footer-container #inner-footer ul {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+
+#page-top footer .container .footer-container #inner-footer ul li {
+  color: #0d49f0;
+  text-align: center;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+#page-top footer .container .footer-container #inner-footer ul li:before {
+  content: '';
+  display: block;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 1.75rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#page-top footer .container .footer-container #inner-footer ul li:first-child::before {
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_581_png_1632180432340/Layer_581_20abc519-16f5-4d50-95fd-e25f2348aaf6.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=adgUOGMOfWiSQu06SpcmRw%2FpYlc%3D");
+}
+
+#page-top footer .container .footer-container #inner-footer ul li:nth-child(2)::before {
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_607_png_1632180432282/Layer_607_98500f4e-a513-4ff9-924c-1ed3b3a9bea9.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=q%2FQZ0APeuSSzZgHin9TuLJXmXyo%3D");
+}
+
+#page-top footer .container .footer-container #inner-footer ul li:nth-child(3)::before {
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_608_png_1632180432642/Layer_608_3e3cbb30-4b7e-4ccf-a651-1455088d7b92.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=OBwLZOplmzlSXO6zN%2F7YJ5JgBvU%3D");
+}
+
+#page-top footer .container .footer-container #inner-footer ul li:nth-child(4)::before {
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_609_png_1632180432654/Layer_609_afdd1165-c0fb-4fa6-9edc-8a8f77a2c48d.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=cSdWFwQl9V4NBoV1Iv3bz1QDH40%3D");
+}
+
+#page-top footer .container .footer-container #inner-footer ul li:nth-child(5)::before {
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_649_png_1632180432682/Layer_649_bf681e5b-23de-4447-957c-f732f42a9c02.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=i7otNc8pFilAuB8i19pSDq5ArZs%3D");
+}
+
+#page-top footer .container .footer-container #inner-footer ul li:nth-child(6)::before {
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_582_png_1632180432280/Layer_582_c1c50013-3c90-4ba2-b6c0-745bce3d32e2.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=F%2BkZGcNgQ8BYukVHFooMvv3ra5Q%3D");
+}
+
+#page-top footer .container .footer-container #inner-footer ul li:nth-child(7)::before {
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Screenshot_2021_09_09_at_16_24_png_1632180432714/Screenshot_2021_09_09_at_16_24_af00b351-2efa-40ee-9d43-d3e5576a3cd6.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=MftLciySqqlcVfx65iN9y%2BCZFU4%3D");
+}
+
+#page-top footer .container .footer-container #inner-footer ul li:nth-child(8)::before {
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_606_png_1632180432282/Layer_606_c76fcc81-88a6-465e-8f8a-e10bc82a695b.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=gsKClF5qFQjZ6nSnyqIppFHuB2g%3D");
+}
+
+#page-top footer .container .footer-container #inner-footer #resources p:nth-of-type(2) a,
+#page-top footer .container .footer-container #inner-footer #resources p:nth-of-type(6) a {
   background-color: #0d49f0;
 }
 
-#page-top footer .container .footer-container #resources p:nth-of-type(3) a {
+#page-top footer .container .footer-container #inner-footer #resources p:nth-of-type(3) a {
   background-color: #a4d862;
 }
 
-#page-top footer .container .footer-container #resources p:nth-of-type(3) a strong, #page-top footer .container .footer-container #resources p:nth-of-type(3) a em {
+#page-top footer .container .footer-container #inner-footer #resources p:nth-of-type(3) a strong, #page-top footer .container .footer-container #inner-footer #resources p:nth-of-type(3) a em {
   color: #0d49f0;
 }
 
-#page-top footer .container .footer-container #resources p:nth-of-type(4) a {
+#page-top footer .container .footer-container #inner-footer #resources p:nth-of-type(4) a {
   background-color: #041040;
 }
 
