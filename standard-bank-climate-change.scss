@@ -1231,7 +1231,7 @@ h5 {
         }
       }
 
-      ul:first-of-type {
+      > ul:first-of-type {
         @include grid(4, 1fr, 1rem);
         padding: 0;
 
