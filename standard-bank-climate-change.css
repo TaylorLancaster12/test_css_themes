@@ -1198,6 +1198,21 @@ h5 {
   position: relative;
 }
 
+#page-top #url-auth-suffix ~ footer:after {
+  display: block;
+  content: '';
+  min-height: 100px;
+  background-color: #10163d;
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/footer_tagline_1632863386719/footer_tagline_012b9b02-7f7b-4bb6-bfa0-a321442245f2.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=sN5vhW%2BV1sIEkO2McaNZFPbwy7E%3D");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  bottom: 5rem;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
 #page-top #url-auth-suffix ~ footer::before {
   content: '';
   display: block;
@@ -1594,17 +1609,6 @@ h5 {
   left: 0;
   max-width: unset;
   padding-bottom: 1rem;
-}
-
-#page-top .login-container:after {
-  display: block;
-  content: '';
-  min-height: 175px;
-  background-color: #10163d;
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/footer_tagline_1632863386719/footer_tagline_012b9b02-7f7b-4bb6-bfa0-a321442245f2.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=sN5vhW%2BV1sIEkO2McaNZFPbwy7E%3D");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 @media (max-width: 768px) {
@@ -2155,6 +2159,10 @@ h5 {
 
 #page-top footer .container .footer-container #inner-footer ul li:nth-child(8)::before {
   background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Layer_606_png_1632180432282/Layer_606_c76fcc81-88a6-465e-8f8a-e10bc82a695b.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=gsKClF5qFQjZ6nSnyqIppFHuB2g%3D");
+}
+
+#page-top footer .container .footer-container #inner-footer #resources {
+  margin-bottom: 3rem;
 }
 
 #page-top footer .container .footer-container #inner-footer #resources p:nth-of-type(2) a,
