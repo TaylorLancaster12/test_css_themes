@@ -1700,15 +1700,11 @@ h5 {
           text-align: left;
           grid-column: unset;
 
-          @media (max-width: 768px) {
-            display: none;
-          }
-
           img {
             max-height: 125px !important;
 
             @media (max-width: 992px) {
-              max-height: 50px !important;
+              max-height: 100px !important;
             }
           }
         }
@@ -1795,7 +1791,8 @@ h5 {
 
           @media (max-width: 992px) {
             grid-column: auto / span 1;
-            grid-row: 7 / span 6;
+            grid-row: 8 / span 6;
+            padding-top: 2rem;
           }
 
           .form-group {
