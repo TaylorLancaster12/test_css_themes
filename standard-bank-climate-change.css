@@ -2302,6 +2302,10 @@ h5 {
   border: 1px solid #0d49f0;
 }
 
+#page-top #showcase_category:nth-child(4) .column-view-item .thumb {
+  object-fit: cover !important;
+}
+
 @media (min-width: 768px) {
   .navbar-right ~ .navbar-right {
     display: flex;

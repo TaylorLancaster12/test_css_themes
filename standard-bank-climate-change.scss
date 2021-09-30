@@ -2201,6 +2201,10 @@ footer .container .footer-container {
 #page-top #showcase_category:nth-child(4) {
   .column-view-item {
     border: 1px solid $blue;
+
+    .thumb {
+      object-fit: cover !important;
+    }
   }
 }
 
