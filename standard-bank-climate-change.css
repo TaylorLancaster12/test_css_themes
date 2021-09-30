@@ -1129,7 +1129,6 @@ h5 {
   grid-column: auto / span 1;
   padding: 0;
   margin-top: 0;
-  max-height: 480px;
 }
 
 #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item .post .thumb-meta-wrapper {
