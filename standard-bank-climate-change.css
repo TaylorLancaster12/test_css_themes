@@ -1537,6 +1537,8 @@ h5 {
   text-align: left;
   margin: 4rem 0;
   max-width: 75%;
+  opacity: 0;
+  margin: 0;
 }
 
 #page-top #url-auth-suffix ~ footer .footer-container > p:nth-of-type(2),
@@ -2253,7 +2255,7 @@ h5 {
 
 #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:first-of-type .post .thumb-meta-wrapper h3 a, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:nth-of-type(10) .post .thumb-meta-wrapper h3 a, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type .post .thumb-meta-wrapper h3 a, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:nth-of-type(10) .post .thumb-meta-wrapper h3 a {
   color: #0d49f0 !important;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 400;
   pointer-events: none;
   text-align: center;

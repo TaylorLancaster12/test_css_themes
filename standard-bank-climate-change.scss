@@ -1461,6 +1461,10 @@ h5 {
           text-align: left;
           margin: 4rem 0;
           max-width: 75%;
+
+          // for now
+          opacity: 0;
+          margin: 0;
         }
 
         > p:nth-of-type(2),
@@ -2138,7 +2142,7 @@ h5 {
 
           a {
             color: $blue !important;
-            font-size: 1.25rem;
+            font-size: 1.5rem;
             font-weight: 400;
             pointer-events: none;
             text-align: center;
