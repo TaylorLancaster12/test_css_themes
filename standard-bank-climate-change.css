@@ -2232,28 +2232,28 @@ h5 {
   padding-top: 0;
 }
 
-#page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:first-of-type, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:nth-of-type(10), #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:nth-of-type(10) {
+#page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:first-of-type, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:nth-of-type(9), #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:nth-of-type(9) {
   grid-column: auto / span 4;
   padding: 2rem 0;
 }
 
 @media (max-width: 768px) {
-  #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:first-of-type, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:nth-of-type(10), #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:nth-of-type(10) {
+  #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:first-of-type, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:nth-of-type(9), #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:nth-of-type(9) {
     grid-column: auto / span 1;
   }
 }
 
-#page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:first-of-type .post .thumb-meta-wrapper, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:nth-of-type(10) .post .thumb-meta-wrapper, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type .post .thumb-meta-wrapper, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:nth-of-type(10) .post .thumb-meta-wrapper {
+#page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:first-of-type .post .thumb-meta-wrapper, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:nth-of-type(9) .post .thumb-meta-wrapper, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type .post .thumb-meta-wrapper, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:nth-of-type(9) .post .thumb-meta-wrapper {
   display: block;
   padding: 0;
   width: 100%;
 }
 
-#page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:first-of-type .post .thumb-meta-wrapper h3, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:nth-of-type(10) .post .thumb-meta-wrapper h3, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type .post .thumb-meta-wrapper h3, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:nth-of-type(10) .post .thumb-meta-wrapper h3 {
+#page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:first-of-type .post .thumb-meta-wrapper h3, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:nth-of-type(9) .post .thumb-meta-wrapper h3, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type .post .thumb-meta-wrapper h3, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:nth-of-type(9) .post .thumb-meta-wrapper h3 {
   margin: .75rem 0;
 }
 
-#page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:first-of-type .post .thumb-meta-wrapper h3 a, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:nth-of-type(10) .post .thumb-meta-wrapper h3 a, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type .post .thumb-meta-wrapper h3 a, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:nth-of-type(10) .post .thumb-meta-wrapper h3 a {
+#page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:first-of-type .post .thumb-meta-wrapper h3 a, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:nth-of-type(9) .post .thumb-meta-wrapper h3 a, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type .post .thumb-meta-wrapper h3 a, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:nth-of-type(9) .post .thumb-meta-wrapper h3 a {
   color: #0d49f0 !important;
   font-size: 1.5rem;
   font-weight: 400;
@@ -2261,7 +2261,7 @@ h5 {
   text-align: center;
 }
 
-#page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:first-of-type .post .thumb-wrapper, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:nth-of-type(10) .post .thumb-wrapper, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type .post .thumb-wrapper, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:nth-of-type(10) .post .thumb-wrapper {
+#page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:first-of-type .post .thumb-wrapper, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type:nth-of-type(9) .post .thumb-wrapper, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:first-of-type .post .thumb-wrapper, #page-top #url-auth-suffix ~ #showcase_category .container.posts .row .list-view-item:nth-of-type(9) .post .thumb-wrapper {
   display: none !important;
 }
 
