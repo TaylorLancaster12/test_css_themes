@@ -1804,8 +1804,7 @@ h5 {
 }
 
 #page-top .login-container > .row > div > p:nth-of-type(3),
-#page-top .login-container > .row > div > p:nth-of-type(6),
-#page-top .login-container > .row > div > p:nth-of-type(7) {
+#page-top .login-container > .row > div > p:nth-of-type(6) {
   color: #a4d862;
 }
 
