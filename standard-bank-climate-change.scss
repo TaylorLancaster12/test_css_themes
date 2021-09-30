@@ -2208,17 +2208,3 @@ footer .container .footer-container {
       align-items: center;
   }
 }
-
-/* delete this the day before the conference */
-#page-top #url-auth-suffix ~ footer::before {
-  display: none;
-}
-
-#page-top #url-auth-suffix ~ footer {
-  margin-top: 10rem;
-}
-
-/* delete this to un-hide the tiles */
-#page-top #url-auth-suffix ~ #showcase_category {
-  display: none !important;
-}
