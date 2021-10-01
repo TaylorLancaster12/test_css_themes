@@ -1346,19 +1346,33 @@ h5 {
   display: none;
 }
 
+#page-top #url-auth-suffix ~ footer .footer-container > ul:first-of-type li:nth-of-type(1) {
+  grid-column: auto / span 4;
+}
+
+@media (max-width: 992px) {
+  #page-top #url-auth-suffix ~ footer .footer-container > ul:first-of-type li:nth-of-type(1) {
+    grid-column: auto / span 2;
+  }
+}
+
 #page-top #url-auth-suffix ~ footer .footer-container > ul:first-of-type li:nth-of-type(1) a {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/africas_journey_png_1633007573011/africas_journey_65bec18e-fdb6-4898-94b8-7ef263a72308.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=TEOs3UN46RVIlQ5F624dRqAnBN8%3D");
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/openxsecure/subaccount/f73a01d5-5c3f-4162-8d9b-643ffd8ecafa/content/assets/templates/template_background/Screen_Shot_2021_09_20_at_7_24_56_PM_png_1632187620593/Screen_Shot_2021_09_20_at_7_24_56_PM_0e254f67-2625-4809-8cf8-57d1f18dd5c2.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=I5%2FDpIrLSYswOc9cP32DgAcgCtI%3D");
 }
 
 #page-top #url-auth-suffix ~ footer .footer-container > ul:first-of-type li:nth-of-type(2) a {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/african_climate_leaders_png_1633007572669/african_climate_leaders_902f9f7a-83ce-4c7f-a085-a0b0b94b2df4.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=U%2BIyC29%2Bll52MDr%2By1Ntog0JG1Q%3D");
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/africas_journey_png_1633007573011/africas_journey_65bec18e-fdb6-4898-94b8-7ef263a72308.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=TEOs3UN46RVIlQ5F624dRqAnBN8%3D");
 }
 
 #page-top #url-auth-suffix ~ footer .footer-container > ul:first-of-type li:nth-of-type(3) a {
-  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/better_world_better_business_png_1633007573236/better_world_better_business_afe4e688-c84e-4b7b-876c-3478494b78b3.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=UjSNPIftuGarJOjuLMTrJGHBUq4%3D");
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/african_climate_leaders_png_1633007572669/african_climate_leaders_902f9f7a-83ce-4c7f-a085-a0b0b94b2df4.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=U%2BIyC29%2Bll52MDr%2By1Ntog0JG1Q%3D");
 }
 
 #page-top #url-auth-suffix ~ footer .footer-container > ul:first-of-type li:nth-of-type(4) a {
+  background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/better_world_better_business_png_1633007573236/better_world_better_business_afe4e688-c84e-4b7b-876c-3478494b78b3.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=UjSNPIftuGarJOjuLMTrJGHBUq4%3D");
+}
+
+#page-top #url-auth-suffix ~ footer .footer-container > ul:first-of-type li:nth-of-type(5) a {
   background-image: url("https://s3.amazonaws.com/present.knowledgevision.com/account/bd03fc6c-1854-4b76-b35a-0188756541fd/content/assets/templates/template_background/creating_future_png_1633007573300/creating_future_712fcc8e-f2a2-4761-9dc5-5282289934cf.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=5NI8On4z39TBelsVHAHCk9Z3ygs%3D");
 }
 
